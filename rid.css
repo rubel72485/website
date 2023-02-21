@@ -1,0 +1,235 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#nav-manuber
+{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-manuber > ul{
+    display: flex;
+    margin-right: 50px;
+}
+#nav-manuber > ul > li
+{
+    list-style: none;
+    margin: 15px 5px;
+}
+#nav-manuber > ul > li > a
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: white;
+    padding: 17px 15px;
+    transition: 0.5s;
+}
+.logober h3{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: white;
+    margin-left: 50px;
+}
+#nav-manuber > ul > li > a:hover{
+    background-color: #5b810e;
+}
+.first-manu{
+    position: absolute;
+    margin-top: 14px;
+    width: 160px;
+    background-color: yellowgreen;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+.first-manu > li{
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+}
+.first-manu > li:first-child{
+    border-top: 1px solid white;
+}
+.first-manu > li > a{
+    text-decoration: none;
+    color: white;
+}
+.first-manu > li:hover{
+    background-color: #5b810e;
+}
+#nav-manuber > ul > li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.hero-area{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#0000003f,#00000069), url('image/blog3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.new-div{
+    width: 1000px;
+    text-align: center;
+    padding: 200px 0px;
+    color: white;
+    margin: auto;
+}
+.new-div > button{
+    padding: 30px 50px;
+    margin-top: 30px;
+    background-color: #6c971570;
+    border-radius: 50px 10px 50px 10px;
+    color: white;
+    transition: 0.5s;
+    border: 2px solid yellowgreen;
+}
+.new-div > button:hover{
+    background-color: #ffff0000;
+    cursor: pointer;
+}
+.icon-div1 > a{
+   text-decoration: none;
+   color: white;
+   margin-top: 25px;
+
+}
+.icon-div1 > a > i
+{
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    margin: 20px 10px;
+    padding: 5px 5px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    line-height: 1.5;
+    transition: 0.5s;
+}
+.icon-div1 > a > i:hover{
+    background-color: #00000000;
+    border: 1px solid green;
+    transform: rotate(360deg);
+}
+/* section one code start here */
+.section-main-container{
+    background-color: #b1b1b18c;
+}
+.section-one{
+    width: 1000px;
+    margin: auto;
+}
+.section-one-parent{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+    text-align: center;
+}
+.section-single-div{
+    padding: 50px 20px; 
+    background-color: white;
+    margin: 10px 15px;
+    transition: 0.5s;
+}
+.section-single-div i{
+    font-size: 50px;
+}
+.section-single-div h3{
+    font-size: 25px;
+    margin: 10px 0;
+}
+.section-single-div:hover{
+    box-shadow: 5px 5px 10px black;
+    cursor: pointer;
+}
+/* section two code start here */
+
+.section-two-main-container{
+    background-color: #e2e2e2;
+}
+
+.section-two-main-parent{
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.section-two-title h3{
+    font-size: 40px;
+    text-align: center;
+    padding: 40px 0;
+    text-transform: capitalize;
+    position: relative;
+}
+.section-two-title h3::after {
+    content: '';
+    width: 126px;
+    height: 5px;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 103px;
+    left: 431px;
+}
+.section-two-sub-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.section-two-imgtag{
+    width: 500px;
+
+}
+.section-two-imgtag img{
+    max-width: 400;
+}
+.section-two-text-div{
+    margin-left: 35px;
+}
+.section-two-text-div h4{
+    color: yellowgreen;
+}
+.section-two-text-div h3{
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+/* section three code start here */
+.section-three-main-container{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.section-three-title{
+    text-align: center;
+    font-size: 25px;
+    text-transform: capitalize;
+    padding: 50px 0;
+}
+.section-three-single-div-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.section-three-single-div{
+    background-color: #618a0e93;
+    padding: 35px 15px;
+    transition: 0.5s;
+}
+.section-three-single-div i{
+    font-size: 35px;
+}
+.section-three-single-div h3{
+    font-size: 25px;
+    margin: 10px 0;
+}
+.section-three-single-div:hover{
+    background-color: #33490593;
+}
