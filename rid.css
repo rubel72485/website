@@ -86,7 +86,7 @@
 }
 .new-div > button{
     padding: 30px 50px;
-    margin-top: 30px;
+    margin-top: 40px;
     background-color: #6c971570;
     border-radius: 50px 10px 50px 10px;
     color: white;
@@ -100,7 +100,6 @@
 .icon-div1 > a{
    text-decoration: none;
    color: white;
-   margin-top: 25px;
 
 }
 .icon-div1 > a > i
@@ -108,8 +107,8 @@
     width: 60px;
     height: 60px;
     font-size: 40px;
-    margin: 20px 10px;
-    padding: 5px 5px;
+    margin: 30px 8px;
+    padding: 5px;
     background-color: yellowgreen;
     border-radius: 50%;
     line-height: 1.5;
@@ -121,8 +120,9 @@
     transform: rotate(360deg);
 }
 /* section one code start here */
+
 .section-main-container{
-    background-color: #b1b1b18c;
+    background-color: #b1b1b125;
 }
 .section-one{
     width: 1000px;
@@ -202,6 +202,10 @@
 }
 
 /* section three code start here */
+.section-three-container{
+    background-color: #f8f0e591;
+    padding-bottom: 100px;
+}
 .section-three-main-container{
     width: 1000px;
     margin: auto;
@@ -232,4 +236,150 @@
 }
 .section-three-single-div:hover{
     background-color: #33490593;
+}
+
+/* section four code star here */
+
+.section-four{
+    background-color: whitesmoke;
+    margin-bottom: 50px;
+}
+.section-four-master-maind{
+    width: 1000px;
+    margin: auto;
+}
+.section-four-items-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectuon-four-items{
+    text-align: center;
+    box-shadow: 5px 5px 15px black;
+    margin: 50px 0;
+}
+.four-img-div .img-tag{
+    width: 300px;
+}
+.sectuon-four-items-text{
+    text-align: center;
+    padding: 0 8px;
+}
+.sectuon-four-items-text h3{
+    font-size: 25px;
+    margin: 15px 0;
+}
+.section-part-two-text{
+    text-align: center;
+    border-top: 1px dashed gray;
+    border-bottom: 1px dashed gray;
+    margin: 10px 15px;
+}
+.sectuon-four-span1{
+    font-size: 30px;
+}
+.sectuon-four-span2{
+    color: gray;
+}
+.sectuon-four-items button{
+    padding: 15px 35px;
+    background-color: yellowgreen;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.sectuon-four-items button:hover{
+    background-color: #00000000;
+    cursor: pointer;
+}
+.sectuon-four-items a{
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+/* five section code start here */
+
+.section-five-div{
+    background-color: #f8dba5;
+    padding: 50px 0;
+}
+.sectuon-five-master-maind{
+    width: 1000px;
+    margin: auto;
+}
+.five-section-title{
+    font-size: 40px;
+    text-align: center;
+
+}
+.five-section-title h5{
+    font-size: 15px;
+    letter-spacing: 0.4em;
+    color: gray;
+}
+.section-five-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 50px 0;
+    grid-gap: 20px;
+}
+.section-five-items{
+    display: flex;
+    background-color: white;
+    padding: 20px 10px;
+}
+.section-five-img-div{
+    width: 300px;
+}
+.section-five-img-div img{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+.section-five-text-div{
+    margin-left: 20px;
+}
+.section-five-span1{
+    font-size: 25px;
+}
+.section-five-span2{
+    color: gray;
+}
+.fiveone-img{
+    margin-left: 8px;
+}
+.icon-section-five i{
+    color: orange;
+}
+
+/* section six code start here */
+
+.six-section-mastermaind{
+    background-image: url('image/32.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 500px;
+}
+.section-six-parent{
+    color: white;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 80px 0;
+    text-align: center;
+}
+.section-six-items i{
+    font-size: 40px;
+}
+.section-six-items h3{
+    font-size: 30px;
+    margin: 15px 0;
+}
+.section-six-items h5{
+    font-size: 20px;
 }
